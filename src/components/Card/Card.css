@@ -1,0 +1,35 @@
+.Card {
+margin: 4rem;
+background-color: #FAF9F6;
+width: 200px;
+height: 200px;
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+display: flex;
+grid-template-columns: repeat(2, 1fr);
+align-self: center;
+
+}
+
+
+.Card .body {
+    background-color: grey;
+    border-radius: 15px;
+    border: 10px solid #FAF9F6;
+
+
+}
+
+.Card .body h2 {
+    background-color: grey;
+    
+
+}
+
+.Card .body p {
+    padding: 10px;
+    background-color: grey;
+    color: green;
+
+}
