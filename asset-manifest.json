@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FTSN_Version2/static/css/main.93055bb4.css",
+    "main.js": "/FTSN_Version2/static/js/main.d48a4a01.js",
+    "static/media/bootstrap-icons.woff?": "/FTSN_Version2/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/FTSN_Version2/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "index.html": "/FTSN_Version2/index.html",
+    "main.93055bb4.css.map": "/FTSN_Version2/static/css/main.93055bb4.css.map",
+    "main.d48a4a01.js.map": "/FTSN_Version2/static/js/main.d48a4a01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93055bb4.css",
+    "static/js/main.d48a4a01.js"
+  ]
+}
