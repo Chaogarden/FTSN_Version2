@@ -6,7 +6,22 @@ import zoomPlugin from 'chartjs-plugin-zoom';
 Chart.register(zoomPlugin);
 
 function DoughnutChart({ chartData }) {
-  return <Doughnut data={chartData} />;
+  return <Doughnut data={chartData} options = {{
+plugins: {
+  responsive:true, 
+
+  title: {
+    display: true,
+    text: 'Predicition Accuracy',
+    color: 'red',
+  }
+  
+}
+
+
+
+
+  }}/>;
 }
 
 export default DoughnutChart;
