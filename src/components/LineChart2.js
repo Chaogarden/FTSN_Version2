@@ -78,3 +78,4 @@ function LineChart2({ chartData }) {
 }
 
 export default LineChart2;
+
