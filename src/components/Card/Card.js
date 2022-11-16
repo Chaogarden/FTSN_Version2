@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 
 
-function Card({ title, content, width = '200px', height = '200px' }) {
+function Card({ title, content, tag, status, width = '200px', height = '200px' }) {
     return(
         <div className = "Card" style = {{ width: width, height: height }}>
 
@@ -10,9 +10,12 @@ function Card({ title, content, width = '200px', height = '200px' }) {
                 <h2>
                     {title}
                 </h2>
+                <h3>
+                    {tag}
+                </h3>
 
                 <p>
-                    {content}
+                    {content} {status}
                 </p>
 
 
