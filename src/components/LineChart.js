@@ -51,22 +51,24 @@ function LineChart({ chartData }) {
 
     zoom: {
 
+      mode: 'x',
+
       pan: {
         enabled: true,
         mode: 'xy',
-        speed: 10,
+        speed: .1,
       },
 
       limits: {
-          y: {min: 0, max: 200000},
-          x: {min: 0},
+          y: {min: 0, max: 40},
+          x: {min: 0,max: 12},
       },
 
       zoom: {
 
         wheel: {
             enabled: true,
-            mode: 'xy',
+            
         },
     
     },
