@@ -7,11 +7,16 @@ Chart.register(zoomPlugin);
 
 function DoughnutChart({ chartData }) {
   return <Doughnut data={chartData} options = {{
+
+
 plugins: {
   responsive:true, 
 
   title: {
     display: true,
+    font:{
+      size:18,
+    },
     text: 'Predicition Accuracy',
     color: 'red',
   }
