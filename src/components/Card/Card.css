@@ -23,13 +23,10 @@ align-self: center;
 
 .Card .body h2 {
     background-color: grey;
-    
-
 }
 
 .Card .body p {
     padding: 10px;
     background-color: grey;
     color: green;
-
 }
